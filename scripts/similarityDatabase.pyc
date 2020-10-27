@@ -1,0 +1,47 @@
+^C�
+���]c^@^@^@^@^@^@^@^@^B^@^@^@@^@^@^@sD^A^@^@d^@^@d^A^@l^@^@Z^@^@d^@^@d^A^@l^A^@Z^A^@d^@^@d^A^@l^B^@Z^B^@d^@^@d^B^@l^C^@m^D^@Z^D^@^Ad^@^@d^C^@l^E^@m^F^@Z^F^@^Ad^@^@d^A^@l^G^@Z^G^@e^G^@j^H^@d^D^@�^A^@Z ^@d^@^@d^E^@l
+^@m^K^@Z^K^@^Ad^@^@d^F^@l^L^@m
+^@Z
+^@m^N^@Z^N^@^Ad^@^@d^G^@l^O^@m^P^@Z^P^@^Ad^@^@d^H^@l^Q^@m^R^@Z^S^@^Ad^@^@d      ^@l^T^@m^U^@Z^V^@^Ad^@^@d
+^@l^@^@m^W^@Z^W^@^Ad^@^@d^K^@l^X^@Td^@^@d^L^@l^Y^@m^Z^@Z^Z^@m^[^@Z^[^@^Ad
+^@j^\^@�^@^@Z^K^@d^N^@�^@^@Z^]^@d^O^@�^@^@Z^^^@d^P^@�^@^@Z^_^@d^Q^@�^@^@Z ^@d^R^@�^@^@Z!^@d^S^@�^@^@Z"^@d^T^@�^@^@Z#^@d^U^@�^@^@Z$^@e$^@�^@^@^Ad^A^@S(^V^@^@^@i����N(^A^@^@^@t
+^@^@^@TfidfModel(^A^@^@^@t
+^@^@^@Dictionaryt^O^@^@^@fr_core_news_md(^A^@^@^@t
+^@^@^@STOP_WORDS(^B^@^@^@t
+^@^@^@sent_tokenizet
+^@^@^@word_tokenize(^A^@^@^@t^H^@^@^@FreqDist(^A^@^@^@t^G^@^@^@wordnet(^A^@^@^@t^Q^@^@^@WordNetLemmatizer(^A^@^@^@t^O^@^@^@RegexpTokenizer(^A^@^@^@t^A^@^@^@*(^B^@^@^@t^G^@^@^@Countert^K^@^@^@defaultdictul^B^@^@à alors au aucun aussi autre avant avec avoir bon car ce cel$voient vont votre vous vu ça étaient état étions été êtrec^A^@^@^@^C^@^@^@^D^@^@^@C^@^@^@sD^@^@^@t^@^@|^@^@�^A^@}^A^@g^@^@|^A^@D]-^@}^B^@|^B^@j^A^@t^B^@k^G^@r^S^@|^B^@j^A^@j^C^@�^@^@r^S^@|^B^@j^A^@^^B^@q^S^@S(^A^@^@^@N(^D^@^@^@t^C^@^@^@nlpt^F^@^@^@lemma_R^C^@^@^@t^G^@^@$^@t^C^@|        ^@d^C^@d^F^@�^@^@d^E^@t^D^@�^A^B}^K^@x.^@|
+^@d^G^@ D]"^@\^B^@}^L^@}
+^@|^B^@j^E^@|^D^@j^F^@|^L^@�^A^@�^A^@^Aq�^@Wx.^@|^K^@d^G^@ D]"^@\^B^@}^L^@}
+^@|^C^@j^E^@|^D^@j^F^@|^L^@�^A^@�^A^@^Aq�^@W|^B^@|^C^@f^B^@S(^H^@^@^@Ni^@^@^@^@i^A^@^@^@t^C^@^@^@keyc^A^@^@^@^A^@^@^@^B^@^@^@S^@^@^@s^H^@^@^@|^@^@d^A^@^YS(^B^@^@^@Ni^A^@^@^@(^@^@^@^@(^A^@^@^@t^A^@^@^@w(^@^@^@^@(^@^@^@^@s^U^@^@^@similarityDatabase.pyt^H^@^@^@<lambda>#^@^$^@^@^@careersCorpust
+^@^@^@jobsCorpust^P^@^@^@careerPostFiltert
+^@^@^@jobPostFiltert
+^@^@^@dictionaryt^D^@^@^@linet^F^@^@^@corpust^E^@^@^@tfidft
+^@^@^@careersVectort
+^@^@^@jobsVectort^T^@^@^@sorted_careersVectort^Q^@^@^@sorted_jobsVectort^G^@^@^@word_idt
+^@^@^@word_count(^@^@^@^@(^@^@^@^@s^U^@^@^@similarityDatabase.pyt^U^@^@^@getNotImportantTokens^\^@^@^@s^Z^@^@^@^@^A
+^A^R^A(^A^L^A^N^A^N^A^[^A^[^A^W^A^Z^A^W^A^Z^Ac^B^@^@^@
+^@^@^@^G^@^@^@C^@^@^@s�^A^@^@t^@^@|^@^@�^A^@}^B^@g^@^@|^B^@D]-^@}^C^@|^C^@j^A^@t^B^@k^G^@r^S^@|^C^@j^A^@j^C^@�^@^@r^S^@|^C^@j^A^@^^B^@q^S^@}^D^@t^@^@d^A^@j^D^@|^D^@�^A^@�^A^@}^B^@g^@^@}^E^@xR^A|^A^@D]J^A}^F^@t^@^@|^F^@d^B^@^Y�^A^@}^G^@g^@^@|^G^@D]-^@}^C^@|^C^@j^A^@t^B^@$^@<n^@^@|^E^@j
+^@d^K^@d^L^@�^@^@d
+^@t^K^@�^@^B^Aqh^@qh^@W|^E^@GH|^E^@S(^N^@^@^@Nu^A^@^@^@ i^@^@^@^@i
+^@^@^@t^E^@^@^@scoreR^R^@^@^@t^K^@^@^@careerTokent^C^@^@^@jobi^A^@^@^@t^E^@^@^@jobIdi����R^T^@^@^@c^A^@^@^@^A^@^@^@^B^@^@^@S^@^@^@s^H^@^@^@|^@^@d^A^@^YS(^B^@^@^@NR-^@^@^@(^@^@^@^@(^A^@^@^@t^A^@^@^@x(^@^@^@^@(^@^@^@^@s^U^@^@^@similarityDatabase.pyR^V^@^@^@:^@^@^@R^W^@^@^$^@^@^@R^N^@^@^@R^C^@^@^@R^O^@^@^@t^D^@^@^@joint
+^@^@^@similarityt^D^@^@^@Nonet^C^@^@^@lenR^\^@^@^@t^C^@^@^@mint^D^@^@^@sortR^[^@^@^@(
+^@^@^@t^F^@^@^@careert^D^@^@^@jobsR.^@^@^@R^R^@^@^@t^A^@^@^@yt^G^@^@^@resultsR/^@^@^@t^F^@^@^@tokensR1^@^@^@t^F^@^@^@result(^@^@^@^@(^@^@^@^@s^U^@^@^@similarityDatabase.pyt^R^@^@^@getSimilarityScore+^@^@^@s"^@^@^@^@^A^L^A:^A^U^A^F^A
+^A^P^A:^A^U^A^O^A^L^A^R^A;^A)^A8^A ^A^E^Ac^C^@^@^@^H^@^@^@^F^@^@^@C^@^@^@s�^A^@^@g^@^@}^C^@g^@^@}^D^@x�^@|^@^@D]�^@}^E^@g^@^@|^E^@d^A^@^YD]^^^@}^F^@|^F^@j^@^@|^B^@k^G^@r$^@|^F^@j^@^@^^B^@q$^@}^F^@t^A^@|^F^@�^A^@d^B^@k^D^@r^S^@t^B^@d^C^@j^C^@|^F^@�^A^@�^A^@|^E^@d^A^@<|^E$^@^@^@NR^R^@^@^@i^@^@^@^@u^A^@^@^@ R.^@^@^@R-^@^@^@i^C^@^@^@R^T^@^@^@c^A^@^@^@^A^@^@^@^B^@^@^@S^@^@^@s^H^@^@^@|^@^@d^A^@^YS(^B^@^@^@NR-^@^@^@(^@^@^@^@(^A^@^@^@R1^@^@^@(^@^@^@^@(^@^@^@^@s^U^@^@^@similarityDatabase.pyR^V^@^@^@R^@^@^@R^W^@^@^@R^X^@^@^@(      ^@^@^@R^N^@^@^$^@^@^@R2^@^@^@R3^@^@^@R4^@^@^@R^\^@^@^@R7^@^@^@R^[^@^@^@(^H^@^@^@R;^@^@^@R ^@^@^@R!^@^@^@t^O^@^@^@normalizedByJobt^R^@^@^@normalizedByCareerR=^@^@^@R^R^@^@^@R1^@^@^@(^@^@^@^@(^@^@^@^@s^U^@^@^@similarityDatabase.pyt^Q^@^@^@normalizeSimilary>^@^@^@s(^@^@^@^@^A^F^A^F^A
+^A/^A^R^A^Y^A^W^A^L^A"^A
+^A/^A^R^A^Y^A^W^A^L^A"^A^K^A
+^A.^Ac^B^@^@^@^F^@^@^@^E^@^@^@C^@^@^@s
+^A^@^@g^@^@}^B^@x�^@|^@^@D]�^@}^C^@g^@^@|^C^@d^A^@^YD]^^^@}^D^@|^D^@j^@^@|^A^@k^G^@r^^^@|^D^@j^@^@^^B^@q^^^@}^D^@t^A^@|^D^@�^A^@d^B^@k^D^@r
+^@t^B^@d^C^@j^C^@|^D^@�^A^@�^A^@|^C^@d^A^@<|^C^@d^D^@^Yj^D^@|^C^@d^A^@^Y�^A^@}^E^@|^E^@d^@^@k   ^@r�^@|^B^@j^F^@i^E^@|^E^@d^E^@6|^C^@d^A^@^Yd^A^@6|^C^@d^D^@^Yd^D^@6|^C^@d^F^@^Yd^F^@6|^C^@d^G^@^Yd^G^@6�^A^@^Aq�^@q
+^@q
+^@W|^B^@j^G^@d^H^@d     ^@�^@^@d
+^@t^H^@�^@^B^A|^B^@d^B^@^Yd^F^@^Y|^B^@d^B^@^Yd^G^@^Yf^B^@S(^K^@^@^@NR^R^@^@^@i^@^@^@^@u^A^@^@^@ R.^@^@^@R-^@^@^@R/^@^@^@R0^@^@^@R^T^@^@^@c^A^@^@^@^A^@^@^@^B^@^@^@S^@^@^@s^H^@^@^@|^@^@d^A^@^YS(^B^@^@^@NR-^@^@^@(^@^@^@^@(^A^@^@^@R1^@^@^@(^@^@^@^@(^@^@^@^@s^U^@^@^@similari$^@^@^@R2^@^@^@R3^@^@^@R4^@^@^@R^\^@^@^@R7^@^@^@R^[^@^@^@(^F^@^@^@R;^@^@^@R!^@^@^@t^L^@^@^@finalResultsR=^@^@^@R^R^@^@^@R1^@^@^@(^@^@^@^@(^@^@^@^@s^U^@^@^@similarityDatabase.pyt^N^@^@^@getFinestMatchT^@^@^@s^T^@^@^@^@^A^F^A
+^A/^A^R^A^Y^A^W^A^L^AJ^A^Y^Ac^@^@^@^@^L^@^@^@^F^@^@^@C^@^@^@s^H^A^@^@g^@^@}^@^@g^@^@}^A^@d^A^@}^B^@d^A^@}^C^@t^@^@j^A^@d^B^@�^A^@^At^@^@j^B^@�^@^@}^D^@xD^@|^D^@D]<^@}^E^@|^@^@j^C^@|^E^@d^C^@^Y|^E^@d^D^@^Yg^B^@�^A^@^A|^B^@d^E^@|^E^@d^C^@^Y^W7}^B^@|^E^@d^C^@^YGHq8^@Wt^@^@$^@}^K^@|^@^@|^B^@|^A^@|^C^@|
+^@|^K^@g^F^@S(^H^@^@^@NR^W^@^@^@s^[^@^@^@SELECT nom, id FROM metierst^C^@^@^@nomt^B^@^@^@idt^A^@^@^@ s"^@^@^@SELECT title FROM careerDirectJobst^E^@^@^@title(^F^@^@^@t^C^@^@^@curt^G^@^@^@executet^H^@^@^@fetchallR^\^@^@^@R^S^@^@^@R,^@^@^@(^L^@^@^@R9^@^@^@t^G^@^@^@careers$^@^@^@careerDictR^^^@^@^@R^_^@^@^@R ^@^@^@R!^@^@^@(^@^@^@^@(^@^@^@^@s^U^@^@^@similarityDatabase.pyt^K^@^@^@initDataset`^@^@^@s&^@^@^@^@^A^F^A^F^A^F^A^F^B
+^A^L^A
+^A^[^A^R^A
+^A
+^A^L^A
+^A^Q^A^V^B^L^A^L^A^U^Ac^C^@^@^@^E^@^@^@^E^@^@^@C^@^@^@sN^@^@^@t^@^@|^@^@|^A^@�^B^@}^C^@t^A^@|^C^@|^B^@�^B^@}^D^@|^D^@|^@^@f^B^@GHt^B^@j^C^@d^A^@|^D^@d^B^@^Y|^D^@d^C^@^Y|^@^@g^C^@�^B^@^Ad^@^@S(^D^@^@^@Ns�^@^@^@INSERT INTO careerDirectJobs SET similarity = %s, similarityI$^A(%^@^@^@t^D^@^@^@nltkt^B^@^@^@ret^E^@^@^@numpyt
+^@^@^@gensim.modelsR^@^@^@^@t^N^@^@^@gensim.corporaR^A^@^@^@t^E^@^@^@spacyt^D^@^@^@loadR
+^@^@^@t^X^@^@^@spacy.lang.fr.stop_wordsR^C^@^@^@t
+^@^@^@nltk.tokenizeR^D^@^@^@R^E^@^@^@t^P^@^@^@nltk.probabilityR^F^@^@^@t^K^@^@^@nltk.corpusR^G^@^@^@t^B^@^@^@wnt        ^@^@^@nltk.stemR^H^@^@^@t^B^@^@^@lmR    ^@^@^@t^H^@^@^@databaset^K^@^@^@collectionsR^K^@^@^@R^L^@^@^@t^E^@^@^@splitR^S^@^@^@R,^@^@^@R>^@^@^@RA^@^@^@RC$^A^V^C^L^B      ^D      ^O      ^S      ^V      ^L      ^W      ^F      ^E^G^A

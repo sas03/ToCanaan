@@ -1,0 +1,472 @@
+button {
+  border: none;
+  cursor: pointer;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar-social-network {
+  border-bottom: 2px solid rgba(255, 102, 0, 1);
+}
+#navbar-social-network .nav-icon {
+  font-size: 1.6rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#navbar-social-network .box-navbar-network-avatar-user {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#navbar-social-network .dropdown {
+  position: relative;
+}
+#navbar-social-network .box-navbar-network-avatar-user img{
+  display: inline-block;
+}
+#navbar-social-network .dropdown-toggle::after {
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+}
+
+.navbar-nav-form,
+.navbar-nav-form .nav-item {
+  width: 100%;
+}
+.navbar-nav-form .nav-item form {
+  position: relative;
+  padding: 0 20px;
+}
+.form-search-user input[type=text] {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid rgb(255, 102, 0);
+  font-size: 0.9rem;
+  padding: 5px 35px 5px 10px;
+  width: 100%;
+}
+.form-search-user button {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  border-radius: 0;
+  border: none;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* NOTIFICATIONS */
+.dropdown-notifications .dropdown-menu {
+  color: #fff;
+  width: 300px;
+}
+.dropdown-notifications .dropdown-menu hr {
+  margin: 0;
+}
+.dropdown-notifications .dropdown-menu a {
+  display: block;
+  padding: 10px 20px;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s linear;
+}
+.dropdown-notifications .dropdown-menu a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.dropdown-notifications {
+  width: 50px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  text-align: center;
+  padding-top: 15px;
+}
+.dropdown-notifications .dropdown-toggle:after {
+  display: none;
+}
+
+.dropdown-notifications .badge {
+  background: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 5px;
+  line-height: 15px;
+  font-size: 0.7rem;
+}
+
+
+
+/* SOUS-MENU */
+.sub-nav {
+  background: rgba(71, 50, 78, 0.9);
+  text-transform: uppercase;
+}
+.sub-nav li {
+  display: inline-block;
+  padding: 10px 40px 10px 0;
+}
+.sub-nav li:hover {
+  text-decoration: underline;
+}
+
+
+
+/* RECHERCHE USER */
+.box-user-find a {
+  color: #fff;
+}
+.box-user-find a:hover .user-find {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.user-find {
+  position: relative;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  transition: background 0.3s linear;
+}
+
+.user-find h5 {
+  display: inline-block;
+  line-height: 20px;
+  margin: 0;
+}
+.user-find .user-avatar {
+  display: inline-block;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.user-find form {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  bottom: 2px;
+}
+.user-find .btn-follow {
+  width: 150px;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.user-find .box-follow-choose-groupe {
+  right: 0;
+  bottom: -176px;
+}
+
+
+
+
+/* INDEX */
+.side-menu a {
+  color: #fff;
+}
+.side-menu a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.side-menu li {
+  padding: 10px 15px;
+  margin-bottom: 3px;
+  background: rgba(255, 255, 255, 0.2);
+  transition: background 0.3s linear;
+}
+.side-menu a:hover li {
+  background: rgba(255, 255, 255, 0.3);
+}
+.side-menu .active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.form-add-post input[type=submit],
+.form-add-comment input[type=submit] {
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+
+.posts-section {
+  position: relative;
+}
+
+.posts-section .box-ajax-load {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.2);
+}
+.posts-section .ajax-load img {
+  text-align: center;
+  width: 50px;
+  padding-top: 50px;
+}
+
+
+
+.box-posts-user {
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+}
+
+.box-posts-user .title-section {
+  position: relative;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  background: rgba(255, 197, 72, 0.7);
+}
+.box-posts-user .title-section-interlocuteur {
+  background: rgba(255, 102, 0, 0.7);
+}
+.box-posts-user .title-section a {
+  color: #fff;
+}
+.box-posts-user .title-section a:hover {
+  color: #fff;
+  text-decoration: none;s
+}
+.box-posts-user .title-section img {
+  display: inline-block;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.box-posts-user .title-section h5 {
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+.box-posts-user .title-section .form-like-post {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+.box-posts-user .title-section .form-like-post label {
+  text-align: right;
+  vertical-align: middle;
+  font-size: 0.8rem;
+}
+.box-posts-user .title-section .form-like-post button {
+  background: none;
+  color: #fff;
+  font-size: 1.5rem;
+  opacity: 0.3;
+  transition: all 0.3s linear;
+  padding-left: 0;
+  padding-right: 8px;
+}
+.box-posts-user .title-section .form-like-post button:hover,
+.box-posts-user .title-section .form-like-post .liked {
+  color: rgba(255, 153, 153, 1);
+  opacity: 1;
+}
+
+.box-posts-user .title-section .box-edit-post {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+.box-posts-user .title-section .box-edit-post i{
+  cursor: pointer;
+}
+.box-posts-user .title-section .box-edit-post ul {
+  display: none;
+  position: absolute;
+  margin-top: 5px;
+}
+.box-posts-user .title-section .box-edit-post li {
+  padding: 5px;
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 1px;
+}
+.box-posts-user .title-section .box-edit-post a {
+  color: #000;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0.8rem;
+}
+
+.box-posts-user .content-section {
+  padding: 20px 20px 0 20px;
+}
+
+.box-posts-user .post-details {
+  font-size: 0.8rem;
+}
+.box-posts-user .comments-section {
+  font-size: 0.8rem;
+}
+.box-posts-user .comments-section a {
+  color: #fff;
+}
+
+.box-form-societe {
+  margin-right: 0;
+}
+
+
+/* COMMENTS */
+.comments-section {
+  padding: 0 20px 20px 20px;
+}
+
+.comments-section-show {
+  display: none;
+  font-size: 0.8rem;
+  padding: 10px;
+}
+.comments-section-show span {
+  font-size: 0.7rem;
+  opacity: 0.8;
+}
+.comments-section-show .link-avatar-user,
+.comments-section-show p {
+  display: inline-block;
+  margin: 0;
+}
+
+.comments-section-show .link-avatar-user {
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.comments-section-show .avatar-user,
+.comments-section-form .avatar-user {
+  display: inline-block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.comments {
+  position: relative;
+}
+
+
+.comments-section-form {
+  position: relative;
+  height: 100px;
+}
+.comments-section-form a {
+  position: absolute;
+  left: 0px;
+}
+.comments-section-form form {
+  position: absolute;
+  left: 30px;
+  right: 0;
+}
+
+.form-add-comment textarea {
+  font-size: 0.8rem;
+  resize: none;
+  width: 100%;
+}
+.form-add-comment input[type=submit] {
+  font-size: 0.8rem;
+}
+
+.link-stats {
+  display: block;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.link-stats:hover {
+  color: #fff;
+}
+.stats {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/**/
+.row-choose-groupe {
+  text-align: center;
+}
+.row-choose-groupe .btn-show-group {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  vertical-align: middle;
+  border: 1px solid #fff;
+}
+
+/* PROFILE */
+.header-user-outer-box {
+  position: relative;
+  height: 200px;
+  top: 0;
+  bottom: 0;
+  margin-bottom: 40px;
+  overflow: visible;
+}
+.row-header-dashboard-user {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-user-outer-box .btn-follow {
+  position: absolute;
+  width: 150px;
+  right: 20px;
+  bottom: 20px;
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.box-follow-choose-groupe {
+  display: none;
+  position: absolute;
+  right: 20px;
+  bottom: -155px;
+  width: 150px;
+  z-index: 500;
+  background: #fff;
+}
+.box-follow-choose-groupe .btn-choose-groupe {
+  display: block;
+  width: 100%;
+  padding: 5px 0;
+  margin: 1px 0;
+}
+
+.btn-choose-groupe-selected {
+  background-color: rgba(94, 195, 172, 0.8);
+}

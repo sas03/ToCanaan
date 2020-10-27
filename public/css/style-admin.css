@@ -1,0 +1,172 @@
+/* GENERAL */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+	position: relative;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
+.link-underlined {
+  text-decoration: underline;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+}
+.btn-return-back {
+  position: absolute;
+  top: 50px;
+  left: 210px;
+  padding: 5px 10px;
+  display: block;
+  border-radius: 5px;
+}
+
+/* Couleurs des différents backgrounds (code couleur ToCANAAN)*/
+.bg-vert { background-color: rgba(94, 195, 172, 0.8); transition: background-color 0.3s linear; }
+.bg-rose { background-color: rgba(254, 115, 150, 0.8); transition: background-color 0.3s linear; }
+.bg-violet { background-color: rgba(112, 78, 114, 0.8); transition: background-color 0.3s linear; }
+.bg-jaune { background-color: rgba(255, 197, 72, 0.8); transition: background-color 0.3s linear; }
+.bg-orange { background-color: rgba(255, 102, 0, 0.8); transition: background-color 0.3s linear; }
+.bg-rouge { background-color: rgba(184, 61, 55, 0.8); transition: background-color 0.3s linear; }
+.bg-blanc { background-color: rgba(255, 255, 255, 0.3); transition: background-color 0.3s linear; }
+
+/* Couleurs des différents backgrounds avec une transparence accentuée (code couleur ToCANAAN)*/
+.bg-light-vert { background-color: rgba(94, 195, 172, 0.3); transition: background-color 0.3s linear;}
+.bg-light-rose { background-color: rgba(254, 115, 150, 0.3); transition: background-color 0.3s linear; }
+.bg-light-violet { background-color: rgba(112, 78, 114, 0.3); transition: background-color 0.3s linear;}
+.bg-light-jaune { background-color: rgba(255, 197, 72, 0.7); transition: background-color 0.3s linear; }
+.bg-light-orange { background-color: rgba(208, 88, 59, 0.3); transition: background-color 0.3s linear;}
+.bg-light-rouge { background-color: rgba(184, 61, 55, 0.3); transition: background-color 0.3s linear; }
+
+
+.bg-rose:hover { background-color: rgba(254, 115, 150, 1); }
+.bg-vert:hover { background-color: rgba(94, 195, 172, 1); }
+.bg-jaune:hover { background-color: rgba(255, 197, 72, 1); }
+.bg-violet:hover { background-color: rgba(112, 78, 114, 1); }
+.bg-orange:hover { background-color: rgba(255, 102, 0, 1); }
+.bg-rouge:hover { background-color: rgba(184, 61, 55, 1); }
+
+/* Couleurs des différentes bordures (code couleur ToCANAAN)*/
+.border-vert { border: 1px solid  rgba(94, 195, 172, 1); }
+.border-rose{ border: 1px solid #FE7396; }
+.border-violet{ border: 1px solid #704E72; }
+.border-jaune{ border: 1px solid #FFC548; }
+
+/* Couleurs des différents textes (code couleur ToCANAAN)*/
+.text-vert, .text-vert:hover { color:  rgba(94, 195, 172, 1); }
+.text-rose, .text-rose:hover { color: #FE7396; }
+.text-violet, .text-violet:hover { color: rgba(112, 78, 114, 0.8); }
+.text-violet-fonce, .text-violet-fonce:hover { color: #251331; }
+.text-jaune, .text-jaune:hover { color: #FFC548; }
+.text-blanc,.text-blanc:hover { color: rgba(255, 255, 255, 1); }
+
+/* Couleur des titres (présent sur toutes les pages) */
+h3 {
+  text-align: center !important;
+}
+
+/* Liste autocomplétion recherche métiers */
+.ui-menu-item {
+  border-bottom: 1px solid #ccc;
+}
+.ui-menu-item:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+hr {
+  padding: 0 20px;
+}
+
+/* ***** ZONE ADMIN ***** */
+
+.container-fluid,
+.navbar-top,
+.col-nav,
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #251331;
+}
+.navbar a,
+.navbar-top a {
+  color: #fff;
+}
+
+.col-content .row {
+  padding: 0 20px;
+}
+.col-content {
+  margin-left: 200px;
+  width: 100%;
+}
+.navbar-left {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  width: 200px;
+}
+.navbar-left .navbar-nav {
+  position: absolute;
+  top: 20px;
+}
+.nav-link:hover {
+  color: #FFC548;
+}
+
+table {
+  font-size: 0.9rem;
+}
+table th,
+table td {
+  text-align: center;
+  vertical-align: middle !important;
+}
+.btn {
+  cursor: pointer;
+}
+
+.edit-form {
+  display: none;
+}
+
+.informative-text {
+  padding: 10px 20px 10px 30px;
+  color: #a6a6a6;
+}
